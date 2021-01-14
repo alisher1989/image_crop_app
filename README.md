@@ -10,11 +10,10 @@
 
 5) pip install --upgrade pip
 
-6) pip install Django==3.1.5
+6) pip install pip install -r req.txt
 
-7) pip install Pillow
+7) ./manage.py migrate
 
-8) ./manage.py migrate
+8) ./manage.py runserver
 
-9) ./manage.py runserver
 
