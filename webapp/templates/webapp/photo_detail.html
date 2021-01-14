@@ -2,7 +2,6 @@
 {% block content %}
     <a href="{% url 'index' %}"><h2>Index</h2></a>
     <form method="POST" action="" enctype="multipart/form-data">
-        <h1>{{ object.pk }}</h1>
         {% include 'form.html' with button_text="Resize" %}
     </form>
     {% if resized_image %}
