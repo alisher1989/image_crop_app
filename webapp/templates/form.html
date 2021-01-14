@@ -1,4 +1,3 @@
-{% load widget_tweaks %}
 {% csrf_token %}
 {% for error in form.non_field_errors %}
     <p>{{ error }}</p>
@@ -12,5 +11,4 @@
         {% endfor %}
     </div>
 {% endfor %}
-
 <p><input type="submit" value="{{ button_text }}"></p>

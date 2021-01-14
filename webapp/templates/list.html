@@ -5,6 +5,6 @@
     {% for i in photos %}
         <p><a href="{% url 'detail' i.pk %}">{{ i.image }}</a></p>
     {% empty %}
-        <p>Poka net izobrajenii</p>
+        <p>Пока нет изображении.</p>
     {% endfor %}
 {% endblock %}
