@@ -14,8 +14,7 @@
 
 7) pip install Pillow
 
-8) pip install django-widget-tweaks
+8) ./manage.py migrate
 
-9) ./manage.py migrate
+9) ./manage.py runserver
 
-10) ./manage.py runserver
