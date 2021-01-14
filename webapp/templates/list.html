@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Images</h1>
+    <a href="{% url 'create' %}"><h2>ADD PHOTO</h2></a>
+    {% for i in photos %}
+        <p><a href="{% url 'detail' i.pk %}">{{ i.image }}</a></p>
+    {% empty %}
+        <p>Poka net izobrajenii</p>
+    {% endfor %}
+{% endblock %}
