@@ -1,6 +1,6 @@
 # image_crop_app
 
-1) git clone https://github.com/alisher1989/image_crop_app/tree/master
+1) git clone https://github.com/alisher1989/image_crop_app
 
 2) cd image_crop_app/
 
