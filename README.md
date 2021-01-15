@@ -10,7 +10,7 @@
 
 5) pip install --upgrade pip
 
-6) pip install pip install -r req.txt
+6) pip install -r req.txt
 
 7) ./manage.py migrate
 
