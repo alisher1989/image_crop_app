@@ -59,9 +59,9 @@
     
     AKTIVATE ACCOUNT
   6) POST запросом http://localhost:8000/auth/users/activation/ , заполнив в Body, с emaila возьмете uid, token и через form-data 2 поля:
-    * uid : MTU
-    * token : aiinkd-1547ab0e819cc812c5e074dac17f4191
-    аккаунт активируется
+      * uid : MTU
+      * token : aiinkd-1547ab0e819cc812c5e074dac17f4191
+        аккаунт активируется
       
  
 
